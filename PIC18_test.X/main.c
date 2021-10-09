@@ -18,7 +18,9 @@ int main(void)
 
 void init(void)
 {
-    
+    uart_init();
+    spi_init();
+    lora_init();
 }
 
 void uart_init(void)
